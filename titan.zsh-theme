@@ -20,5 +20,5 @@ local user='%{$fg[red]%}%n%{$reset_color%}'
 local machine='%{$fg[yellow]%}%M%{$reset_color%}'
 local pwd='%{$fg[cyan]%}%~%{$reset_color%}'
 
-PROMPT="${user}@${machine}:${pwd} ❯ "
+PROMPT='${user}@${machine}:${pwd} ❯ '
 RPROMPT='%{$fg[$NCOLOR]%} $(git_prompt_info)%{$reset_color%}'
