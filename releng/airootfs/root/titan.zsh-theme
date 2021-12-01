@@ -85,7 +85,7 @@ if [[ $EUID -eq 0 ]]; then
   _MACHINE="%{$fg[white]%}%m"
   _LIBERTY="%{$fg[green]%}#"
 else
-  _USERNAME="%{$fg_bold[white]%}%n"
+  _USERNAME="%{$fg_bold[blue]%}%n"
   _MACHINE="%{$fg[white]%}%m"
   _LIBERTY="%{$fg[green]%}$"
 fi
