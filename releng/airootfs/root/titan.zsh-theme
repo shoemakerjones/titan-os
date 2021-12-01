@@ -93,6 +93,6 @@ _USERNAME="$_USERNAME%{$reset_color%}"
 _MACHINE="$_MACHINE%{$reset_color%}"
 _LIBERTY="$_LIBERTY%{$reset_color%}"
 
-PROMPT='$_USERNAME:$_PATH $_LIBERTY '
+PROMPT='$_USERNAME $_PATH $_LIBERTY '
 RPROMPT='$(nvm_prompt_info) $(bureau_git_prompt)'
 
