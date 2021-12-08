@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-50,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+opacity="0.37" >
+<path vector-effect="none" fill-rule="nonzero" d="M25.3008,0 C23.4916,0 22,1.49161 22,3.30078 L22,18.6992 C22,20.5084 23.4916,22 25.3008,22 L40.6992,22 C42.5084,22 44,20.5084 44,18.6992 L44,3.30078 C44,1.49161 42.5084,0 40.6992,0 L25.3008,0 M25.2227,1 L40.7773,1 C42.0085,1 43,1.99155 43,3.22266 L43,18.7773 C43,20.0085 42.0085,21 40.7773,21 L25.2227,21 C23.9915,21 23,20.0085 23,18.7773 L23,3.22266 C23,1.99155 23.9915,1 25.2227,1 L25.2227,1"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-50,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+opacity="0.6" >
+<path vector-effect="none" fill-rule="nonzero" d="M25.2227,1 C23.9915,1 23,1.99155 23,3.22266 L23,4.22266 C23,2.99155 23.9915,2 25.2227,2 L40.7773,2 C42.0085,2 43,2.99155 43,4.22266 L43,3.22266 C43,1.99155 42.0085,1 40.7773,1 L25.2227,1"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-50,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+opacity="0.5" >
+<path vector-effect="none" fill-rule="nonzero" d="M32,8 L32,11 L29,11 L29,13 L32,13 L32,16 L34,16 L34,13 L37,13 L37,11 L34,11 L34,8 L32,8"/>
+</g>
+
+<g fill="#595959" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-50,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M32,7 L32,10 L29,10 L29,12 L32,12 L32,15 L34,15 L34,12 L37,12 L37,10 L34,10 L34,7 L32,7"/>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-50,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+opacity="0.25" >
+<path vector-effect="none" fill-rule="nonzero" d="M32,7 L32,8 L34,8 L34,7 L32,7 M29,10 L29,11 L32,11 L32,10 L29,10 M34,10 L34,11 L37,11 L37,10 L34,10"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Roboto" font-size="10.5" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
