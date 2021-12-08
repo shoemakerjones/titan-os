@@ -52,3 +52,14 @@ lookandfeeltool -a com.github.vanceliuice.Layan
 
 # Install zsh
 pacman -S neofetch zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s /usr/bin/zsh $USER
+
+# Starting services
+systemctl enable sddm
+systemctl enable NetworkManager
+
+# Now exit the chrooted enviorment and reboot
+cd $HOME
+exit
+reboot now
