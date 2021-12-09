@@ -12,7 +12,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Titan
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Install display manager, network manager, etc.
-pacman -Syu xorg xf86-video-intel plasma sddm networkmanager network-manager-applet inetutils qt5 cmake make man-db man-pages gcc inkscape firefox latte-dock
+pacman --noconfirm -Syu xorg xf86-video-intel plasma sddm networkmanager network-manager-applet inetutils qt5 cmake make man-db man-pages gcc inkscape firefox latte-dock
 
 # Downloads everything needed
 cd /tmp
@@ -42,8 +42,8 @@ cd /tmp/Layan-kde
 lookandfeeltool -a com.github.vanceliuice.Layan
 
 # Install zsh
-pacman -S neofetch zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+pacman --noconfirm -S neofetch zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s /usr/bin/zsh $USER
 
 # Starting services
