@@ -14,17 +14,20 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # Install display manager, network manager, etc.
 pacman --noconfirm -Syyu
 pacman --noconfirm -S xorg
-pacman --noconfirm -S  xf86-video-intel
-pacman --noconfirm -S  plasma
-pacman --noconfirm -S  sddm
-pacman --noconfirm -S  networkmanager  network-manager-applet
-pacman --noconfirm -S  inetutils
-pacman --noconfirm -S  qt5 cmake
-pacman --noconfirm -S  make  gcc
-pacman --noconfirm -S  man-db man-pages
-pacman --noconfirm -S  inkscape 
-pacman --noconfirm -S  firefox
-pacman --noconfirm -S  latte-dock
+pacman --noconfirm -S xf86-video-intel
+pacman --noconfirm -S plasma
+pacman --noconfirm -S sddm
+pacman --noconfirm -S networkmanager 
+pacman --noconfirm -S inetutils
+pacman --noconfirm -S qt5
+pacman --noconfirm -S cmake
+pacman --noconfirm -S make  
+pacman --noconfirm -S gcc
+pacman --noconfirm -S man-db 
+pacman --noconfirm -S man-pages
+pacman --noconfirm -S inkscape 
+pacman --noconfirm -S firefox
+pacman --noconfirm -S latte-dock
 
 # Downloads everything needed
 cd /tmp
