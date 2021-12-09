@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Install Arch Linux
-pacstrap /mnt base linux-zen linux-firmware grub
-
-# Mount filesystem and chroot into /mnt
-timedatectl set-ntp true
-genfstab -U /mnt >> /mnt/etc/fstab
-arch-chroot /mnt
-
 # Initial configuration
 sed -i '177s/.//' /etc/locale.gen
 locale-gen
@@ -24,29 +16,29 @@ pacman -Syu xorg xf86-video-intel plasma sddm networkmanager network-manager-app
 
 
 # Downloads everything needed
-cd $HOME/Downloads
+cd /tmp
 git clone https://github.com/tsujan/Kvantum.git
 git clone https://github.com/vinceliuice/Layan-kde.git
 git clone https://github.com/yeyushengfan258/Reversal-icon-theme.git
 git clone https://github.com/varlesh/volantes-cursors.git
 
 # Install Kvantum
-cd $HOME/Downloads/Kvantum/Kvantum
+cd /tmp/Kvantum/Kvantum
 mkdir build && cd build
 cmake ..
 make install
 
 # Install icons
-cd $HOME/Downloads/Reversal-icon-theme
+cd /tmp/Reversal-icon-theme
 ./install.sh -a
 
 # Install cursor
-cd $HOME/Downloads/volantes-cursors
+cd /tmp/volantes-cursors
 make build
 make install
 
 # Configure theme
-cd $HOME/Downloads/Layan-kde
+cd /tmp/Layan-kde
 ./install.sh
 lookandfeeltool -a com.github.vanceliuice.Layan
 
@@ -60,6 +52,6 @@ systemctl enable sddm
 systemctl enable NetworkManager
 
 # Now exit the chrooted enviorment and reboot
-cd $HOME
+cd /
 exit
 reboot now
