@@ -12,7 +12,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Titan
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Install display manager, network manager, etc.
-pacman -Syu --no-confim xorg xf86-video-intel plasma sddm networkmanager network-manager-applet inetutils qt5 cmake make man-db man-pages gcc inkscape firefox latte-dock
+pacman -Syu xorg xf86-video-intel plasma sddm networkmanager network-manager-applet inetutils qt5 cmake make man-db man-pages gcc inkscape firefox latte-dock
 
 # Downloads everything needed
 cd /tmp
